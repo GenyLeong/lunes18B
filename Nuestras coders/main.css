@@ -1,0 +1,62 @@
+/* Inserta tu código aqui */
+
+.titulo {
+height:9%;
+width:15%;
+position: absolute;
+
+top:5%;
+left:30%;}
+
+.container{
+	height: 60%;
+	width: 50%;
+	position:absolute;
+	top:20%;
+	left:25%;
+
+}
+
+.cuadro{
+	position: relative;
+	display: inline-block;
+	height: 40%;
+	width: 25%;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+    box-sizing: border-box;
+          top:5%;
+          left:8%;
+         bottom:10%;
+         top: 10%;
+         margin:0.8%;
+         margin-bottom: 0;
+         margin-right: 3%;
+      }
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+
+
+.cuadro p{
+	position: relative;
+	bottom:18%;
+	left:35%;
+	right:15%;
+	color: white;
+}
+
+hr{
+	position: relative;
+	width: 60%;
+	border:2px solid black;
+	right:20%;
+	bottom: 20%;
+}

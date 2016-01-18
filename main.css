@@ -1,0 +1,32 @@
+.master{
+	border:1px solid black;
+	width: 500px;
+}
+
+.hijo{
+	height: 40px;
+	width:25%;
+	float:left;
+}
+
+.a{
+	background-color: yellow;
+}
+
+ .b{
+	background-color: blue;
+}
+
+ .c{
+	background-color: red;
+}
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+

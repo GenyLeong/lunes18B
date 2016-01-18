@@ -1,0 +1,51 @@
+*{
+padding:0px;
+margin:0px;
+box sizing:content box;}
+
+.caja {
+bg-color:gray;
+height:10px;
+width:100px;
+border 2px solid black;
+}
+
+body{
+margin:10px;}
+
+.container{
+margin:10px 0px;
+bg-color:gray;
+border 2px solid black;
+width:340px;
+text-align:center;}
+
+.container .caja <!-- dentro del contenedor container se busca caja -->
+{
+display:inline-block;
+margin-right:10px;}
+
+.inline-block{
+display:inline-block;}
+
+<div class="caja"></div>
+
+<div class="container borde">
+<div class="caja"></div>
+<div class="caja"></div>
+<div class="caja"></div>
+</div>
+
+<div class="caja inline-block"></div>
+<div class="caja inline-block"></div>
+
+<div class="caja"></div>
+
+Si agregamos clase "clearfix" 
+
+**************************************************
+Float es una propiedad que permite que nuestros elementos se situen en diferentes posiciones respecto a otros.
+
+float:inherit hace referencia al float de su elemento padre.
+absolute es para que tome distancia a partir del contenedor.
+Relative es para que tome distancia a partir de la pagina 
